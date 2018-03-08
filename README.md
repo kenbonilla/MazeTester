@@ -1,7 +1,6 @@
 # MazeTester
-Finds the optimal route in a maze
-Maze Tester
-Kenneth Bonilla
+Finds route through maze
+
 
 Given a recursive solution that takes 2D-Array mazes, where 0 is a wall and 1 is a potential path, solutions were found and given a value of 2. From this there were the addition of multiple functions.
 The first function was to collect the coordinates of a valid solution and display them as ordered pairs. In order to do this, the 2s were converted into 3s, for actual solution path. Then a function was introduced that walked through the solutions and discarded branches that did not have 2 or more viable neighbors, or a viable neighbor and lay upon a border. This function was stepped through until no more 3s were converted back to 2s. This produced a map of 0 for wall, 1 for unchecked paths, 2, for checked paths, and 3 for viable paths.
